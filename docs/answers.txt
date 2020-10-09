@@ -1,0 +1,27 @@
+GitHub Account Setup 3/31/2018
+Completed Git Lab tutorials 10/8/2020
+1. Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 541 bytes | 541.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JoshuaPanagos/assignment2.git
+   f73bc30..a76d5a2  master -> master
+
+2. 9, git rev-list --count master
+
+3. Date:   Thu Oct 8 20:09:32 2020 -0400
+git log -1 README.md
+4. To logically separate work. Also merging versions is made easier.
+5. git status shows the working status of changes, while git log shows the history of already committed changes.
+6. git log --follow Vehicle.h
+7. git log --all --grep='file'
+8.  (I) What is inheritance? New data types are defined as extensions of previously defined types.
+(II) What is polymorphism? The ability of methods to be defined with different behavior depending on context.
+(III) What is encapsulation? Gathering of all aspects of a real world entity into a single unit.
+9. Instead of pushing changes to a dev public repository, changes are pushed to lieutenant repositories that are shared
+by multiple developers, and then the dictator merges from there.
+10. With a large team it would prevent having to solve large amounts of conflict resolution all at once, and instead
+breaks it down into more discrete steps.
